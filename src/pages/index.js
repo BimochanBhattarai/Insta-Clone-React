@@ -1,6 +1,5 @@
 import HomePage from "./HomePage/HomePage";
-import About from "./About/About";
-import Contact from "./Contact/Contact";
 import Auth from "./Auth/Auth";
+import ProfilePage from "./ProfilePage/ProfilePage";
 
-export { HomePage, About, Contact, Auth };
+export { HomePage, Auth, ProfilePage };

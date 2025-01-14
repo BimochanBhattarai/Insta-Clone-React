@@ -12,7 +12,7 @@ const PostHeader = ({username, avatar}) => {
 				/>
 				<Flex fontSize={"12px"} fontWeight={"bold"} gap={2}>
 					{username}
-					<Box color={"gray.500"}>* 2h</Box>
+					<Box color={"gray.500"}>• 2h</Box>
 				</Flex>
 			</Flex>
 			<Box
