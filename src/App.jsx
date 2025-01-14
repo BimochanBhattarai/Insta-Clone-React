@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, About, Contact, Auth } from "./pages";
+import { About, Contact, Auth, HomePage } from "./pages";
 import { Route, Routes } from "react-router-dom";
 import PageLayout from "./Layouts/PageLayout/PageLayout";
 
@@ -8,7 +8,7 @@ function App() {
 		<>
 			<PageLayout>
 				<Routes>
-					<Route path="/" element={<Home />} />
+					<Route path="/" element={<HomePage />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/contact" element={<Contact />} />
 					<Route path="/auth" element={<Auth />} />
