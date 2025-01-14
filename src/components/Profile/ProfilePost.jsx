@@ -19,6 +19,7 @@ import React from "react";
 import { AiFillHeart } from "react-icons/ai";
 import { FaComment } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
+import {Comment, PostFooter} from "../index";
 
 const ProfilePost = ({ img }) => {
 	const { isOpen, onOpen, onClose } = useDisclosure();
@@ -163,6 +164,8 @@ const ProfilePost = ({ img }) => {
                                             profilePicture="/profilepic.png"
                                         />
                                 </VStack>
+                                <Divider my={4} bg={"gray.800"} />
+                                <PostFooter isProfilePage />
 							</Flex>
 						</Flex>
 					</ModalBody>
