@@ -4,6 +4,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { mode } from "@chakra-ui/theme-tools";
 import { BrowserRouter } from "react-router-dom";
+import './index.css'
 
 const styles = {
 	global: (props) => ({

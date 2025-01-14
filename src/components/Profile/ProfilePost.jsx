@@ -163,6 +163,44 @@ const ProfilePost = ({ img }) => {
                                             createdAt="3 hours ago"
                                             profilePicture="/profilepic.png"
                                         />
+                                        <Comment 
+                                            username="bimochanbhattarai_" 
+                                            text="This is a comment"
+                                            createdAt="1 hour ago"
+                                            profilePicture="/profilepic.png"
+                                        />
+
+                                        <Comment
+                                            username="seconduser"
+                                            text="This is another comment"
+                                            createdAt="2 hours ago"
+                                            profilePicture="/profilepic.png"
+                                        />
+                                        <Comment
+                                            username="thirduser"
+                                            text="This is another comment"
+                                            createdAt="3 hours ago"
+                                            profilePicture="/profilepic.png"
+                                        />
+                                        <Comment 
+                                            username="bimochanbhattarai_" 
+                                            text="This is a comment"
+                                            createdAt="1 hour ago"
+                                            profilePicture="/profilepic.png"
+                                        />
+
+                                        <Comment
+                                            username="seconduser"
+                                            text="This is another comment"
+                                            createdAt="2 hours ago"
+                                            profilePicture="/profilepic.png"
+                                        />
+                                        <Comment
+                                            username="thirduser"
+                                            text="This is another comment"
+                                            createdAt="3 hours ago"
+                                            profilePicture="/profilepic.png"
+                                        />
                                 </VStack>
                                 <Divider my={4} bg={"gray.800"} />
                                 <PostFooter isProfilePage />
