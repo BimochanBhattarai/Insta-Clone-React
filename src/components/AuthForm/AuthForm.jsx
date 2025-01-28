@@ -15,9 +15,6 @@ import GoogleAuth from "./GoogleAuth";
 const AuthForm = () => {
 	const [isLogin, setIsLogin] = useState(true);
 
-
-	
-
 	return (
 		<>
 			<Box border={"1px solid gray"} borderRadius={8} px={4} pb={6}>
@@ -29,9 +26,9 @@ const AuthForm = () => {
 						cursor={"pointer"}
 						mb={"-25px"}
 					/>
-					
+
 					{isLogin ? <Login /> : <Signup />}
-					
+
 					<Flex
 						justifyContent={"center"}
 						fontSize={"14px"}
@@ -47,7 +44,7 @@ const AuthForm = () => {
 						<Box flex={2} h={"1px"} bg={"gray.400"} />
 					</Flex>
 
-					<GoogleAuth />
+					<GoogleAuth prefix={isLogin ? "Log in" : "Sign up"} />
 				</VStack>
 			</Box>
 			<Box border={"1px solid gray"} borderRadius={8} p={2} mt={4}>
