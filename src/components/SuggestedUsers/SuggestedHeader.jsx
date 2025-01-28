@@ -1,8 +1,10 @@
-import { Avatar, Flex, Link, Text } from "@chakra-ui/react";
+import { Avatar, Button, Flex, Link, Text } from "@chakra-ui/react";
 import React from "react";
 import { Link as RouterLink } from "react-router-dom";
+import useLogout from "../../hooks/useLogout";
 
 const SuggestedHeader = () => {
+	const { handleLogout, isLoggingOut } = useLogout();
 	return (
 		<Flex justifyContent={"space-between"} alignItems={"center"} w={"full"}>
 			<Flex alignItems={"center"} gap={2}>
@@ -11,17 +13,19 @@ const SuggestedHeader = () => {
 					Bimochan
 				</Text>
 			</Flex>
-			<Link
-				as={RouterLink}
-				to={"/auth"}
+			<Button
+				bg={"transparent"}
+				size={"sm"}
 				fontSize={14}
 				fontWeight={"medium"}
 				color={"blue.400"}
 				cursor={"pointer"}
                 _hover={{textDecoration: 'none', color: 'white'}}
+				onClick={handleLogout}
+				loading={isLoggingOut}
 			>
                 Log out
-            </Link>
+            </Button>
 		</Flex>
 	);
 };
