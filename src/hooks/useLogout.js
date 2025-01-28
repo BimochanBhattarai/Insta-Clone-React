@@ -9,7 +9,6 @@ const useLogout = () => {
 	const logoutUser = useAuthStore((state) => state.logout);
 
 	const handleLogout = async () => {
-		console.log("Logged out");
 
 		try {
 			await signOut();

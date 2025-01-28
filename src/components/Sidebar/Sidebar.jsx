@@ -13,7 +13,7 @@ import { BiLogOut } from "react-icons/bi";
 import useLogout from "../../hooks/useLogout";
 
 const Sidebar = () => {
-	const { handelLogout, isLoggingOut } = useLogout();
+	const { handleLogout, isLoggingOut } = useLogout();
 
 	const sidebarItems = [
 		{
@@ -120,7 +120,7 @@ const Sidebar = () => {
 					display={{ base: "block", md: "none" }}
 				>
 					<Flex
-						onClick={handelLogout}
+						onClick={handleLogout}
 						alignItems={"center"}
 						gap={4}
 						_hover={{ bg: "whiteAlpha.400" }}
