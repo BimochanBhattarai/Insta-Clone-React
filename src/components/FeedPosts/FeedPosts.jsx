@@ -43,22 +43,22 @@ const FeedPosts = () => {
 			{!loading && (
 				<>
 					<FeedPost
-						img="/img1.png"
+						img="/img1.avif"
 						username="Bimochan Bhattarai"
-						avatar="/img1.png"
+						avatar="/img1.avif"
 					/>
 					<FeedPost
-						img="/img2.png"
+						img="/img2.avif"
 						username="Prakriti Khanal"
 						avatar="/img2.png"
 					/>
 					<FeedPost
-						img="/img3.png"
+						img="/img3.avif"
 						username="Muna Sharma"
 						avatar="/img3.png"
 					/>
 					<FeedPost
-						img="/img4.png"
+						img="/img4.avif"
 						username="Dinesh Raj"
 						avatar="/img4.png"
 					/>

@@ -35,7 +35,7 @@ const Login = () => {
 			<Button w={"100%"} colorScheme={"blue"} fontSize={"14px"} 
 			onClick={() => login(inputs)} isLoading={loading}
 			>
-				Log in
+				Log
 			</Button>
 		</>
 	);

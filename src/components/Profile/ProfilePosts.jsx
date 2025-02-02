@@ -26,10 +26,10 @@ const ProfilePosts = () => {
 
         {!loading && (
             <>
-                <ProfilePost img="/img1.png"/>
-                <ProfilePost img="/img2.png"/>
-                <ProfilePost img="/img3.png"/>
-                <ProfilePost img="/img4.png"/>
+                <ProfilePost img="/img1.avif"/>
+                <ProfilePost img="/img2.avif"/>
+                <ProfilePost img="/img3.avif"/>
+                <ProfilePost img="/img4.avif"/>
             </>
         )}
 

@@ -24,10 +24,10 @@ const SuggestedUsers = () => {
 					See All
 				</Text>
 			</Flex>
-      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img1.png'/>
-      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img2.png'/>
-      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img3.png'/>
-      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img4.png'/>
+      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img1.avif'/>
+      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img2.avif'/>
+      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img3.avif'/>
+      <SuggestedUser name="Dan Abrahmov" followers={1392} avatar='/img4.avif'/>
 
       <Box w={"full"} py={4} fontSize={12} fontWeight={"bold"} color={"gray.500"}>
         &copy; 2025 Built by <Link href="https://github.com/BimochanBhattarai" target="_blank" color={"blue.400"}>Bimochan Bhattatai</Link>
